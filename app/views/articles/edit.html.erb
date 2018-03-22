@@ -1,4 +1,4 @@
-<h1>Create a Article</h1>
+<h1>Edit existing article</h1>
 
 <% if @article.errors.any? %>
 <ul>
@@ -19,10 +19,11 @@
         <%= f.text_area :description %>
     </p>
     
-    <%= f.submit %> <br>
+    <p>
+        <%= f.submit %> 
+    </p>
     
-<p>
-    <%= link_to "Back to home page", articles_path %>
-</p>
-
+    <p>
+        <%= link_to "Back to home page", articles_path %>
+    </p>
 <% end %>
