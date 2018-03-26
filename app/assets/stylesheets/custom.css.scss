@@ -1,2 +1,27 @@
+.nav > li > a {
+    color: #777;
+    line-height: 20px;
+}
+
+a.navbar-brand {
+    font-size: 23px;
+    letter-spacing: 0.7px;
+    transition: 0.4s
+}
+
+nav.navbar.navbar-default {
+    border: 0;
+    font-weight: bold;
+    margin-bottom: 0;
+    border-color: #e7e7e7;
+    transition: 0.4s
+}
+ 
+body{
+    font-family: 'Lato', sans-serif;
+ }
+
+
+
 @import "bootstrap-sprockets";
 @import "bootstrap";
